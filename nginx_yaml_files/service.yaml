@@ -7,9 +7,9 @@ metadata:
   namespace: default
 spec:
   ports:
-  - ports: 80
-    protocol: TCP
-    targetPort: 80
+    - ports: 80
+      protocol: TCP
+      targetPort: 80
   selector:
     app: nginx
   type: NodePort
